@@ -1,0 +1,72 @@
+.main {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  max-width: 960px;
+  margin: 30px auto;
+  opacity: 0;
+  animation: showContainer 1s forwards;
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  span {
+    color: #48bb78;
+    font-weight: bold;
+  }
+
+  div {
+    margin-top: 40px;
+    p {
+      font-size: 1.25rem;
+      line-height: 2rem;
+    }
+  }
+
+  h2,
+  h3 {
+    margin: 30px 0;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  a {
+    color: #ed64a6;
+    font-weight: 700;
+  }
+
+  button {
+    color: white;
+    margin-top: 30px;
+    padding: 10px 30px;
+    border: 0;
+    background: #6b46c1;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    border-radius: 10px;
+
+    &::before {
+      content: '🠔';
+      display: inline-block;
+      margin-right: 10px;
+      animation: animaArrow 1s infinite;
+    }
+  }
+}
+
+@keyframes showContainer {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes animaArrow {
+  from {
+    opacity: 0;
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-5px);
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "updaynext",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css|less|scss|sass)$": "identity-obj-proxy"
+    }
+  },
+  "dependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/plugin-syntax-jsx": "^7.14.5",
+    "@babel/plugin-transform-regenerator": "^7.14.5",
+    "@babel/preset-env": "^7.14.7",
+    "@prismicio/client": "^5.1.0",
+    "@testing-library/dom": "^8.1.0",
+    "@types/jest": "^26.0.23",
+    "@types/next-auth": "^3.15.0",
+    "@types/node": "^16.0.0",
+    "@types/node-sass": "^4.11.1",
+    "@types/prismic-dom": "^2.1.1",
+    "core-js": "^3.15.2",
+    "jest": "26",
+    "next": "11.0.1",
+    "next-auth": "^3.27.1",
+    "prismic-cli": "^3.8.13",
+    "prismic-dom": "^2.2.5",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0",
+    "regenerator-runtime": "^0.13.7",
+    "sass": "^1.35.1",
+    "styled-components": "^5.3.0",
+    "ts-node": "^10.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.14.5",
+    "@types/react": "17.0.11",
+    "add": "^2.0.6",
+    "cypress-social-logins": "^1.11.3",
+    "eslint": "7.29.0",
+    "eslint-config-next": "11.0.1",
+    "identity-obj-proxy": "^3.0.0",
+    "react-test-renderer": "^17.0.2",
+    "typescript": "^4.3.5",
+    "yarn": "^1.22.10"
+  }
+}

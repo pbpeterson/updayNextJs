@@ -1,0 +1,39 @@
+.container {
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 30px 0;
+  opacity: 0;
+  animation: showContainer 1s forwards;
+}
+
+.post {
+  margin-top: 10px;
+  a {
+    color: white;
+    strong {
+      font-size: 1.875rem;
+    }
+
+    span {
+      margin-top: 10px;
+
+      & + span {
+        margin-left: 20px;
+      }
+    }
+
+    &:hover {
+      color: #d53f8c;
+    }
+  }
+}
+
+.postSection {
+  margin-top: 15px;
+}
+
+@keyframes showContainer {
+  to {
+    opacity: 1;
+  }
+}
