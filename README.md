@@ -5,8 +5,9 @@
 <p align="center">
  <a href="#features">Features</a> •
  <a href="#pré-requisitos">Pré Requisitos</a> • 
- <a href="#🎲-rodando-o-front-end">Rodando a aplicação</a> • 
- <a href="#🛠-tecnologias">Tecnologias</a> •
+ <a href="#rodando-o-front-end">Rodando a aplicação</a> • 
+ <a href="#tecnologias">Tecnologias</a> •
+ <a href="#autor">Autor</a> •
 
 </p>
 
@@ -59,4 +60,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Sass](https://sass-lang.com/)
 - [Prismic](https://prismic.io/)
 
+### 👨🏾‍💻 Autor
+
+  
+
+- Website: https://pbpeterson.github.io
+
+- Github: @pbpeterson
+
+- LinkedIn: @pbpeterson
 ---
